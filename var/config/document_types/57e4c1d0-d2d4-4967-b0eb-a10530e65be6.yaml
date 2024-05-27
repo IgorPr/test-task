@@ -1,0 +1,14 @@
+pimcore:
+    documents:
+        doc_types:
+            definitions:
+                57e4c1d0-d2d4-4967-b0eb-a10530e65be6:
+                    name: News
+                    group: ''
+                    controller: 'App\Controller\NewsController::myAction'
+                    template: null
+                    type: page
+                    priority: 0
+                    creationDate: 1716826509
+                    modificationDate: 1716828681
+                    staticGeneratorEnabled: false
