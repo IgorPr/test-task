@@ -21,4 +21,5 @@ For creating a custom model, I used Doctrine ORM
  https://pimcore.com/docs/platform/Pimcore/Extending_Pimcore/Custom_Persistent_Models/
 https://github.com/IgorPr/test-task/blob/6feaf1cfd3c83105dac339a4eb46e1230609d5db/src/Entity
 
+
 #### P.S. I couldn't run 'php bin/console make' perhaps I encountered a bug. That's why I wrote the code using the Doctrine manual.
