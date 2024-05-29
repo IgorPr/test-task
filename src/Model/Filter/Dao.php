@@ -8,8 +8,8 @@ use Pimcore\Model\Exception\NotFoundException;
 class Dao extends AbstractDao
 {
     protected string $tableName = 'filters';
-    private string $filterColorsTableName = 'filter_colors';
-    private string $сolorsTableName = 'colors';
+    protected string $filterColorsTableName = 'filter_colors';
+    protected string $сolorsTableName = 'colors';
 
     public function getById(?int $id = null): void
     {
