@@ -25,7 +25,7 @@ pimcore:
     models:
         class_overrides:
             'Pimcore\Model\DataObject\Service': 'App\Model\DataObject\DebugService'
-#            'Pimcore\Model\DataObject\News\Listing': 'App\Model\DataObject\News\Listing'
+            'Pimcore\Model\Document': 'App\Model\ModernDocument'
 #            'Pimcore\Model\DataObject\Folder': 'App\Model\DataObject\Folder'
 #            'Pimcore\Model\Asset\Folder': 'App\Model\Asset\Folder'
 #            'Pimcore\Model\Asset\Image': 'App\Model\Asset\Image'
